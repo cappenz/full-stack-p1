@@ -1,0 +1,92 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+ 
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/images/f1_road.png');  
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.app-layout {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.box-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  opacity: 0.8;
+  background-color: white;
+}
+
+.f1-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.image-overlay-car {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#car {
+  position: relative;
+}
+
+.box {
+  background-color: white;
+} 
+
+
+  .properties-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .bush{
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .speed-box-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    opacity: 0.8;
+    background-color: white;
+  }
+  
